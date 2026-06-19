@@ -20,7 +20,7 @@ Portfólio pessoal estático desenvolvido do zero com HTML, CSS e JavaScript pur
 
 > Clique na imagem abaixo para assistir ao vídeo de demonstração:
 
-[![Demonstração do portfólio](img/print-hero.png)](img/Pollyana-PORTIFOLIO.mp4)
+[![Demonstração do portfólio](img/print-hero.png)](https://youtu.be/CeFODbYjPDM)
 
 ---
 

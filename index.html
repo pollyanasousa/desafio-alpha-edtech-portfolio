@@ -1,0 +1,408 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Pollyana Cassia — AI Developer</title>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600;700&family=Inter:wght@400;500;600&display=swap" rel="stylesheet" />
+  <link rel="icon" href="img/icons8-dedo-duro-48.png" type="image/png" />
+
+  <script src="https://unpkg.com/lucide@latest/dist/umd/lucide.min.js"></script>
+
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+
+  <header>
+    <nav>
+      <div class="nav-inner">
+        <a href="#hero" class="nav-logo">
+          <i data-lucide="star" class="nav-star"></i>
+          <span>POLLYANA</span>.dev
+        </a>
+
+        <ul class="nav-links">
+          <li><a href="#sobre">Sobre</a></li>
+          <li><a href="#trajetoria">Trajetória</a></li>
+          <li><a href="#projetos">Projetos</a></li>
+          <li><a href="#contato">Contato</a></li>
+        </ul>
+
+        <a href="#contato" class="btn-primary nav-cta">Me contrate</a>
+
+        <button class="hamburger" id="hamburger" aria-label="Abrir menu">
+          <span></span>
+          <span></span>
+          <span></span>
+        </button>
+      </div>
+    </nav>
+  </header>
+  <div class="mobile-menu" id="mobile-menu" role="dialog" aria-label="Menu de navegação">
+    <button class="close-btn" id="close-menu" aria-label="Fechar menu">
+      <i data-lucide="x"></i>
+    </button>
+    <a href="#sobre" class="menu-link">Sobre</a>
+    <a href="#trajetoria" class="menu-link">Trajetória</a>
+    <a href="#projetos" class="menu-link">Projetos</a>
+    <a href="#contato" class="menu-link">Contato</a>
+    <a href="#contato" class="btn-primary" style="margin-top:1rem;">Me contrate</a>
+    <div class="mobile-social">
+      <a href="https://github.com/pollyanasousa" target="_blank" class="menu-link">
+        <img src="img/icons8-github-30.png" alt="GitHub" style="width:20px;height:20px;object-fit:contain;filter:invert(1);vertical-align:middle;margin-right:6px;"> GitHub
+      </a>
+      <a href="https://www.linkedin.com/in/pollyanacassia/" target="_blank" class="menu-link">
+        <img src="img/icons8-linkedin-50.png" alt="LinkedIn" style="width:20px;height:20px;object-fit:contain;vertical-align:middle;margin-right:6px;"> LinkedIn
+      </a>
+    </div>
+  </div>
+  <main>
+
+    <section id="hero">
+      <div class="container">
+        <div class="hero-grid">
+
+          <div class="hero-content">
+            <p class="hero-eyebrow"><i data-lucide="sparkles" class="eyebrow-icon"></i> Portfólio — 2026</p>
+            <h1 class="hero-title">Pollyana Cassia de Sousa</h1>
+            <p class="hero-subtitle">Desenvolvedora IA em Formação</p>
+            <p class="hero-bio">
+              Atuo com IA conversacional na Global Hitss desde 2021, quando saí do bootcamp 
+              SoulCode direto para o mercado. Hoje, como estudante de Sistemas de Informação 
+              na UFRPE e participante da Alpha Edtech, estou evoluindo de Prompt Engineer 
+              para AI Developer — em busca de novos desafios.
+            </p>
+            <div class="hero-tags">
+              <span class="chip">Chatbot</span>
+              <span class="chip">Watson Assistant</span>
+              <span class="chip">Prompt Engineering</span>
+              <span class="chip">IA Conversacional</span>
+            </div>
+            <div class="hero-btns">
+              <a href="#projetos" class="btn-primary">
+                <i data-lucide="layout-grid"></i> Ver projetos
+              </a>
+              <!-- Código atualizado aqui: trocando o currículo por LinkedIn -->
+              <a href="https://www.linkedin.com/in/pollyanacassia/" target="_blank" class="btn-outline">
+                <i data-lucide="linkedin"></i> LinkedIn
+              </a>
+            </div>
+          </div>
+
+          <div class="hero-visual-wrap">
+            <div class="hero-photo-glow"></div>
+            <div class="hero-photo-border">
+              <div class="hero-photo">
+                <img src="img/foto3x4.jpeg" alt="Pollyana Cassia de Sousa" />
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </div>
+      <div class="scroll-hint" aria-hidden="true">scroll</div>
+    </section>
+    <section id="sobre">
+      <div class="container">
+        <p class="section-label">Minha essência</p>
+        <div class="sobre-grid">
+
+          <div>
+            <h2 class="section-title">Sobre Mim</h2>
+            <div class="sobre-bio">
+              <p>
+                Comecei em 2021 criando fluxos conversacionais com 
+                <strong>Watson Assistant</strong> na Global Hitss. Com a chegada da IA 
+                Generativa, passei a atuar com engenharia de prompt — uma área que 
+                ainda estou construindo e aprofundando.
+              </p>
+              <p>
+                Hoje, como estudante de <strong>Sistemas de Informação na UFRPE</strong> 
+                e participante da <strong>Alpha Edtech</strong>, estou dando os primeiros 
+                passos em desenvolvimento com IA — transformando curiosidade e vontade 
+                de crescer em código real.
+              </p>
+            </div>
+          </div>
+
+          <div class="skills-card">
+            <p class="skills-title">Maestria Técnica</p>
+
+            <div class="skill-item">
+              <div class="skill-header">
+                <span>Fluxo Conversacional / Watson</span>
+                <span>75%</span>
+              </div>
+              <div class="skill-track">
+                <div class="skill-fill" data-width="75"></div>
+              </div>
+            </div>
+
+            <div class="skill-item">
+              <div class="skill-header">
+                <span>Prompt Engineering (em construção)</span>
+                <span>55%</span>
+              </div>
+              <div class="skill-track">
+                <div class="skill-fill" data-width="55"></div>
+              </div>
+            </div>
+
+            <div class="skill-item">
+              <div class="skill-header">
+                <span>IA Generativa (aprendendo)</span>
+                <span>35%</span>
+              </div>
+              <div class="skill-track">
+                <div class="skill-fill" data-width="35"></div>
+              </div>
+            </div>
+
+            <div class="skill-item">
+              <div class="skill-header">
+                <span>Programação Python / Dev com IA (iniciando)</span>
+                <span>20%</span>
+              </div>
+              <div class="skill-track">
+                <div class="skill-fill" data-width="20"></div>
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+    <section id="trajetoria">
+      <div class="container">
+        <p class="section-label" style="text-align:center;">Caminho percorrido</p>
+        <h2 class="section-title" style="text-align:center;">Trajetória</h2>
+
+        <div class="timeline">
+
+          <div class="tl-item">
+            <div class="tl-left tl-card">
+              <p class="tl-year">2020</p>
+              <p class="tl-role">WoMakersCode — Hacking de Carreira</p>
+              <p class="tl-org">Primeiro passo na tecnologia através de mentoria focada em recolocação e transição de carreira.</p>
+            </div>
+            <div class="tl-center"><div class="tl-dot"></div></div>
+            <div class="tl-right"></div>
+          </div>
+
+          <div class="tl-item">
+            <div class="tl-left"></div>
+            <div class="tl-center"><div class="tl-dot"></div></div>
+            <div class="tl-right tl-card">
+              <p class="tl-year">2021</p>
+              <p class="tl-role">Bootcamp SoulCode Academy</p>
+              <p class="tl-org">Formação intensiva em tecnologia que me levou direto ao mercado de trabalho.</p>
+            </div>
+          </div>
+
+          <div class="tl-item">
+            <div class="tl-left tl-card">
+              <p class="tl-year">2021 até hoje</p>
+              <p class="tl-role">Global Hitss — IA Conversacional</p>
+              <p class="tl-org">Atuando com fluxos conversacionais e Watson Assistant IBM desde julho de 2021.</p>
+            </div>
+            <div class="tl-center"><div class="tl-dot"></div></div>
+            <div class="tl-right"></div>
+          </div>
+
+          <div class="tl-item">
+            <div class="tl-left"></div>
+            <div class="tl-center"><div class="tl-dot"></div></div>
+            <div class="tl-right tl-card">
+              <p class="tl-year">2025</p>
+              <p class="tl-role">Prompt Engineering</p>
+              <p class="tl-org">Com a chegada da IA Generativa, passei a atuar com engenharia de prompt — área que sigo construindo.</p>
+            </div>
+          </div>
+
+          <div class="tl-item">
+            <div class="tl-left tl-card">
+              <p class="tl-year">2026</p>
+              <p class="tl-role">UFRPE</p>
+              <p class="tl-org">Bacharelado em Sistemas de Informação — aprofundando a base técnica.</p>
+            </div>
+            <div class="tl-center"><div class="tl-dot"></div></div>
+            <div class="tl-right"></div>
+          </div>
+
+          <div class="tl-item">
+            <div class="tl-left"></div>
+            <div class="tl-center"><div class="tl-dot"></div></div>
+            <div class="tl-right tl-card">
+              <p class="tl-year">2026</p>
+              <p class="tl-role">Alpha Edtech</p>
+              <p class="tl-org">Participando do programa para evoluir de Prompt Engineer para AI Developer.</p>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+    <section id="projetos">
+      <div class="container">
+        <p class="section-label">Portfólio</p>
+        <h2 class="section-title">Projetos em Destaque</h2>
+
+        <div class="projetos-grid">
+
+          <article class="proj-card">
+            <div class="proj-icon-wrap">
+              <i data-lucide="shopping-cart" class="proj-icon"></i>
+            </div>
+            <h3 class="proj-title">Gráfica Moderna E-commerce</h3>
+            <p class="proj-desc">Projeto final de e-commerce completo desenvolvido durante o bootcamp SoulCode Academy.</p>
+            <div class="proj-chips">
+              <span class="chip">HTML</span>
+              <span class="chip">CSS</span>
+              <span class="chip">JavaScript</span>
+              <span class="chip">Git</span>
+            </div>
+            <div class="proj-btns">
+              <a href="img/Gráfica Premium.mp4" target="_blank" class="demo"><i data-lucide="play-circle"></i> Demo</a>
+              <a href="https://github.com/pollyanasousa/grafica-moderna-ecommerce---final" target="_blank" class="github"><i data-lucide="github"></i> GitHub</a>
+            </div>
+          </article>
+
+          <article class="proj-card">
+            <div class="proj-icon-wrap">
+              <i data-lucide="pizza" class="proj-icon"></i>
+            </div>
+            <h3 class="proj-title">Reactzzaria — Pedidos</h3>
+            <p class="proj-desc">Tela de pedidos voltada ao cliente — meu primeiro projeto com React, onde o usuário monta seu pedido de pizza.</p>
+            <div class="proj-chips">
+              <span class="chip">React</span>
+              <span class="chip">JavaScript</span>
+              <span class="chip">CSS</span>
+              <span class="chip">Git</span>
+            </div>
+            <div class="proj-btns">
+              <a href="img/React-zzaria.mp4" target="_blank" class="demo"><i data-lucide="play-circle"></i> Demo</a>
+              <a href="https://github.com/pollyanasousa/reactzzaria-pedidos" target="_blank" class="github"><i data-lucide="github"></i> GitHub</a>
+            </div>
+          </article>
+
+          <article class="proj-card">
+            <div class="proj-icon-wrap">
+              <i data-lucide="layout-dashboard" class="proj-icon"></i>
+            </div>
+            <h3 class="proj-title">Reactzzaria — Cadastro</h3>
+            <p class="proj-desc">Painel administrativo do sistema, usado para cadastrar e gerenciar os produtos da pizzaria.</p>
+            <div class="proj-chips">
+              <span class="chip">React</span>
+              <span class="chip">JavaScript</span>
+              <span class="chip">CSS</span>
+              <span class="chip">Git</span>
+            </div>
+            <div class="proj-btns">
+              <a href="img/React-zzaria-cadastro.mp4" target="_blank" class="demo"><i data-lucide="play-circle"></i> Demo</a>
+              <a href="" target="_blank" class="github"><i data-lucide="github"></i> GitHub</a>
+            </div>
+          </article>
+
+        </div>
+      </div>
+    </section>
+    <section id="contato">
+      <div class="container">
+        <p class="section-label">Conexão</p>
+        <h2 class="section-title">Vamos Conversar?</h2>
+
+        <div class="contato-grid">
+
+          <form id="contact-form" novalidate>
+            <div class="form-field">
+              <label for="nome">Nome</label>
+              <input type="text" id="nome" name="nome" placeholder="Como posso te chamar?" required />
+            </div>
+            <div class="form-field">
+              <label for="email">E-mail</label>
+              <input type="email" id="email" name="email" placeholder="seu@email.com" required />
+            </div>
+            <div class="form-field">
+              <label for="mensagem">Mensagem</label>
+              <textarea id="mensagem" name="mensagem" placeholder="Descreva sua ideia ou convite..." required></textarea>
+            </div>
+            <button type="submit" class="btn-primary" style="width:100%;justify-content:center;">
+              Enviar mensagem
+            </button>
+          </form>
+
+          <aside class="social-links">
+            <a href="https://www.linkedin.com/in/pollyanacassia/" target="_blank" class="social-card">
+              <div class="social-icon"><img src="img/icons8-linkedin-32.png" alt="LinkedIn" style="width:22px;height:22px;object-fit:contain;"></div>
+              <div class="social-info">
+                <p class="social-name">LinkedIn</p>
+                <p class="social-handle">/in/pollyanacassia</p>
+              </div>
+            </a>
+            <a href="https://github.com/pollyanasousa" target="_blank" class="social-card">
+              <div class="social-icon"><img src="img/icons8-github-30.png" alt="GitHub" style="width:22px;height:22px;object-fit:contain;filter:invert(1);"></div>
+              <div class="social-info">
+                <p class="social-name">GitHub</p>
+                <p class="social-handle">pollyanasousa</p>
+              </div>
+            </a>
+            <a href="mailto:pollyanacassia8@gmail.com" class="social-card">
+              <div class="social-icon"><i data-lucide="mail"></i></div>
+              <div class="social-info">
+                <p class="social-name">E-mail</p>
+                <p class="social-handle">pollyanacassia8@gmail.com</p>
+              </div>
+            </a>
+          </aside>
+
+        </div>
+      </div>
+    </section>
+    </main>
+
+
+  <footer>
+    <div class="container">
+      <div class="footer-inner">
+        <span><i data-lucide="star" class="footer-star"></i> Coragem para Codar &amp; sabedoria para Inovar — 2026</span>
+        <a href="#hero">POLLYANA.dev</a>
+      </div>
+    </div>
+  </footer>
+  <button id="bot-btn" aria-label="Abrir HermioneBot">
+    <img src="img/icons8-harry-potter-24.png" alt="HermioneBot" style="width:28px;height:28px;">
+  </button>
+
+  <div id="bot-widget" role="dialog" aria-label="HermioneBot">
+    <div class="bot-header">
+      <div class="bot-avatar">
+        <img src="img/icons8-boneca-hermione-granger-48.png" alt="HermioneBot" class="bot-avatar-img" />
+     </div>
+      <div>
+        <p class="bot-name">HermioneBot</p>
+        <p class="bot-status">sempre disponível</p>
+      </div>
+      <button class="bot-close" id="bot-close" aria-label="Fechar bot">
+        <i data-lucide="x"></i>
+      </button>
+    </div>
+    <div class="bot-body">
+      <div class="bot-bubble">
+        Olá! Sou o bot da Pollyana. Escolha uma pergunta para saber mais sobre ela:
+      </div>
+      <div class="bot-questions">
+        <button class="bot-q" data-key="inicio">Como você começou na tech?</button>
+        <button class="bot-q" data-key="ia">Por que IA?</button>
+        <button class="bot-q" data-key="hire">Posso te contratar?</button>
+        <button class="bot-q" data-key="fun">Curiosidade sobre mim</button>
+      </div>
+      <div class="bot-answer" id="bot-answer"></div>
+    </div>
+  </div>
+  <script src="script.js"></script>
+
+</body>
+</html>

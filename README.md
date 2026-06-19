@@ -20,16 +20,7 @@ Portfólio pessoal estático desenvolvido do zero com HTML, CSS e JavaScript pur
 
 > Clique na imagem abaixo para assistir ao vídeo de demonstração:
 
-[![Demonstração do portfólio](docs/screenshot-hero.png)](img/Pollyana-PORTIFOLIO.mp4)
-
-### Hero + Navegação
-![Hero do portfólio](img/print-hero.png)
-
-### HermioneBot — Chatbot flutuante
-![HermioneBot aberto](img/print-trajetoria.png)
-
-### Projetos em Destaque
-![Seção de projetos](img/print-projetos.png)
+[![Demonstração do portfólio](img/print-hero.png)](img/Pollyana-PORTIFOLIO.mp4)
 
 ---
 
@@ -71,12 +62,10 @@ desafio-alpha-edtech-portfolio/
 │   ├── foto3x4.jpeg
 │   ├── harrypotter.png
 │   ├── icons8-*.png
-│   └── POLLYANA-PORTIFOLIO.mp4   # Vídeo de demonstração
+│   ├── print-hero.png             # Thumbnail do vídeo de demonstração
+│   └── Pollyana-PORTIFOLIO.mp4   # Vídeo de demonstração
 └── docs/
-    ├── prompt-uxui.md             # Prompt de engenharia usado no Google Stitch
-    ├── screenshot-hero.png        # Print da seção Hero
-    ├── screenshot-bot.png         # Print do HermioneBot aberto
-    └── screenshot-projetos.png    # Print da seção de projetos
+    └── prompt-uxui.md             # Prompt de engenharia usado no Google Stitch
 ```
 
 ---

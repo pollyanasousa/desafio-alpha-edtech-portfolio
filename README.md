@@ -18,7 +18,7 @@ Portfólio pessoal estático desenvolvido do zero com HTML, CSS e JavaScript pur
 
 ## 🎬 Demonstração
 
-> Clique na imagem abaixo para assistir ao vídeo de demonstração:
+[![Assistir Demo](https://img.shields.io/badge/▶_Assistir_Demo-FF0000?style=for-the-badge&logo=youtube&logoColor=white)](https://youtu.be/CeFODbYjPDM)
 
 [![Demonstração do portfólio](img/print-hero.png)](https://youtu.be/CeFODbYjPDM)
 

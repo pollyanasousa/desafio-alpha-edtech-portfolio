@@ -20,16 +20,16 @@ Portfólio pessoal estático desenvolvido do zero com HTML, CSS e JavaScript pur
 
 > Clique na imagem abaixo para assistir ao vídeo de demonstração:
 
-[![Demonstração do portfólio](docs/screenshot-hero.png)](img/POLLYANA-PORTIFOLIO.mp4)
+[![Demonstração do portfólio](docs/screenshot-hero.png)](img/Pollyana-PORTIFOLIO.mp4)
 
 ### Hero + Navegação
-![Hero do portfólio](docs/screenshot-hero.png)
+![Hero do portfólio](img/print-hero.png)
 
 ### HermioneBot — Chatbot flutuante
-![HermioneBot aberto](docs/screenshot-bot.png)
+![HermioneBot aberto](img/print-trajetoria.png)
 
 ### Projetos em Destaque
-![Seção de projetos](docs/screenshot-projetos.png)
+![Seção de projetos](img/print-projetos.png)
 
 ---
 
